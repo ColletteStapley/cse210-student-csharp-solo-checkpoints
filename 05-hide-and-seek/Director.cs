@@ -73,7 +73,7 @@ namespace _05_hide_and_seek
         /// </summary>
         public void DoOutputs()
         {
-            string hint = _hider.GetHint();
+            string hint = _hider.GetHint(_seeker._location);
             _userService.DisplayText(hint);
         }
     }

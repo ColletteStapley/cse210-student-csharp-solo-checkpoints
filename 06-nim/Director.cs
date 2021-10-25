@@ -14,8 +14,6 @@ namespace _06_nim
         private Board _board = new Board();
         private UserService _userService = new UserService();
         private Roster _roster = new Roster();
-
-        private Move move = null;
         private bool _keepPlaying = true;
 
         /// <summary>
