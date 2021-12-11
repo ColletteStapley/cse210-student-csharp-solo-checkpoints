@@ -17,5 +17,4 @@ namespace _07_snake
 
         public const int SNAKE_LENGTH = 50;
     }
-
 }
